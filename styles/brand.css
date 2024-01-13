@@ -1,0 +1,39 @@
+.main__brand {
+    padding-bottom: 200px;
+}
+
+.main__brand__wrap {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid #2C353D33;
+    background: #2C353D33 url("../imgs/brand-bg.png") no-repeat center/cover;
+    padding: 55px 60px;
+}
+
+.main__brand__title {
+    color: #FFFFFFCC;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.main__brand__logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+@media screen and (max-width: 1060px) {
+    .main__brand__wrap {
+        padding: 30px 45px;
+        gap: 40px;
+    }
+    .main__brand__logos {
+        flex-wrap: wrap;
+    }   
+}
